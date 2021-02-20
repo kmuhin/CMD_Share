@@ -1,0 +1,2 @@
+/root/.ssh/authorized_keys
+command="/root/script_ntp/ntpflush.sh",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty ssh-rsa AAAAB3NzaC1yc2EAA...Sc1wENQ== ntpflusher-20180726

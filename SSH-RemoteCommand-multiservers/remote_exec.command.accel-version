@@ -1,0 +1,2 @@
+# Gentoo. It shows accel-ppp version
+printf "%-20s%s\n" "$(hostname)" "$(qlop -l accel-ppp | tail -n1 2>/dev/null)"

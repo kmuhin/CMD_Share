@@ -1,0 +1,1 @@
+echo y | PLINK.EXE -T -i "ntpflush.ppk" root@msk-zil-ca

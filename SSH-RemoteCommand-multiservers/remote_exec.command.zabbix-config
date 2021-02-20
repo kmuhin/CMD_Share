@@ -1,0 +1,1 @@
+grep --color -i -e "^Server=" -e"^Hostname=" -e"^BufferSize=" /etc/zabbix/zabbix_agentd.conf

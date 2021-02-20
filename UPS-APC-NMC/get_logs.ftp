@@ -1,0 +1,4 @@
+get logs/data.txt
+get logs/event.txt
+get config.ini
+quit

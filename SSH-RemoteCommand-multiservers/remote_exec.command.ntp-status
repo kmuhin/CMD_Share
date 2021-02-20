@@ -1,0 +1,3 @@
+# Shows date and ntp version
+printf "%-20s%s\n" "$(hostname)" "$(date)"
+printf "%-20s%s\n" "$(hostname)" "$(ntpq -4 -nc rv | head -n1)"

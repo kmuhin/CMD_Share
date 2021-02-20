@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommandFile xmlns="http://www.procurve.com/usbmgt/CommandFileFormat">
+  <CommandFileBody xmlns="">
+    <FileFormatVersion>Version 1.0</FileFormatVersion>
+    <TypeOfCommandFile>Run as many times</TypeOfCommandFile>
+    <DeviceDescription/>
+    <Commands>
+      <Command>copy usb startup-config startup-config.pcc</Command>
+    </Commands>
+    <AuthorInfo>
+      <TimeStamp>2016-06-08T14:09:40.983+04:00</TimeStamp>
+      <Name>Administrator</Name>
+    </AuthorInfo>
+    <OperatorInfo>
+      <TimeStamp>2016-06-08T14:09:40.983+04:00</TimeStamp>
+      <Name>TO BE SPECIFIED</Name>
+    </OperatorInfo>
+    <PCMInfo>
+      <TimeStamp>2016-06-08T14:09:40.983+04:00</TimeStamp>
+      <Name>DESKTOP-4G18BM0</Name>
+    </PCMInfo>
+  </CommandFileBody>
+</CommandFile>

@@ -1,0 +1,10 @@
+msk-zoneC-r1;msk-zoneC-r1;username;password
+msk-zoneC-r2;msk-zoneC-r2;username;password
+msk-zoneA-r1;msk-zoneA-r1;username;password
+msk-zoneB-r1;msk-zoneB-r1;username;password
+msk-internet;msk-internet;username;password
+spb-r1;msk-zoneA-r1;username;password
+video-A;172.16.1.191;username;password
+video-B;172.16.1.190;username;password
+video-C;172.16.1.189;username;password
+video-D;172.16.1.188;username;password

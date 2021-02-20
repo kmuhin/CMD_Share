@@ -1,0 +1,8 @@
+# Gentoo Portage: Show portage update time. For me it shows the system update time.
+emergetimestamp=$(cat /usr/portage/metadata/timestamp)
+lastemerge=$(date +%s -d"${emergetimestamp}")
+lastemergehuman=$(date +"%F %T" -d@${lastemerge})
+today=$(date +%s)
+since=$(echo "$today - $lastemerge" | bc | awk '{printf("%d:%02d:%02d:%02d",($1/60/60/24),($1/60/60%24),($1/60%60),($1%60))}')
+
+printf "%-20s %-25s %-10s %-42s %s \n" "`hostname`" "`uname -mr`" "`uptime -s`" "(`uptime -p`)" "emergesync: ${lastemergehuman} (${since} days ago)"

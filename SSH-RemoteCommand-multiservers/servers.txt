@@ -1,0 +1,8 @@
+172.18.207.164;ssh-keys\test.ppk
+zabbix;ssh-keys\zabbix.ppk
+syslog;ssh-keys\syslog.PPK
+radius;ssh-keys\radius.ppk
+172.16.255.22;ssh-keys\gw1.ppk
+172.16.255.23;ssh-keys\gw2.ppk
+172.16.255.32;ssh-keys\kzn-gw1.ppk
+172.16.255.33;ssh-keys\kzn-gw2.ppk

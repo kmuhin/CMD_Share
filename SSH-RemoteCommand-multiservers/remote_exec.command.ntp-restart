@@ -1,0 +1,6 @@
+# Gentoo. Shows status ntpd. Restarts ntp daemon and ntp client.
+printf "%-20s%s\n" "$(hostname)" "$(ntpq -4 -nc rv 2>&1 | head -n1)"
+date
+/etc/init.d/ntp-client restart
+/etc/init.d/ntpd restart
+date

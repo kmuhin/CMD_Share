@@ -1,0 +1,4 @@
+event_codes.csv
+log_sec_mgmt.cmd 
+log_sec_mgmt.ps1 
+security log 2.xml

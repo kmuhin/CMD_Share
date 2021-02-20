@@ -1,0 +1,3 @@
+# Gentoo. It shows keepalived version.
+#qlop -l keepalived | tail -n1
+printf "%-20s%s\n" "$(hostname)" "$(equery --quiet list keepalived)"
