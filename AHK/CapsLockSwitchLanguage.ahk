@@ -30,7 +30,25 @@ return
 NumpadDot::Send .
 #IfWinActive
 
-*#c::Run Calc.exe  ; Win+C, Shift+Win+C, Ctrl+Win+C, etc. will all trigger this hotkey.
+*#c:: ; Win+C, Shift+Win+C, Ctrl+Win+C, etc. will all trigger this hotkey.
+Run Calc.exe  
+WinActivate Calculator
+return
 
 ^!f::Run "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Far Manager 3 x64\Far Manager 3 x64.lnk"
 
+
+#IfWinActive ahk_exe EXCEL.EXE
+; Excel fill color alt+z, h({vk48}), 1, esc, enter
+^PgDn::
+Send !z
+Sleep 5
+Send {vk48}
+Sleep 5
+Send 1
+Sleep 5
+Send {Esc}
+Sleep 5
+Send {Enter}
+return
+#IfWinActive

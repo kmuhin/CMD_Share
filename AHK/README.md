@@ -10,19 +10,16 @@ Run the script manually or add the script to startup:
 
 # CapsLockSwitchLanguage.ahk
 On Windows 10 how to make CapsLock as a language switch
-Required program
-[AutoHotkey](https://www.autohotkey.com/)
-
 https://superuser.com/questions/429930/using-capslock-to-switch-the-keyboard-language-layout
 
-CapsLockSwitchLanguage.ahk - script for AutoHotkey.
-
-    SetCapsLockState, AlwaysOff
-    +CapsLock::CapsLock
-    CapsLock::Send, {Ctrl down}{Shift down}{Shift up}{Ctrl up}{Ctrl up}
-    return
-
-
+## hotkeys
+- `win+n` - run notepad,
+- `shift+3` - type `#` in any language,
+- `ctrl+shift+3` - type `№` in any language,
+- `NumpadDot` - type `.`  in any language in PyCharm program, print float numbers with period, not comma on numpad,
+- `win+c` - run calculator,
+- `ctrl+shif+f` - run far manager,
+- `ctrl+PgDn` - Excel fill color in Excel program.
 
 # KeyHistory.ahk, MouseHistory.ahk
 https://autohotkey.com/boards/viewtopic.php?f=6&t=26059
